@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/clouddrove-sandbox/auto-release-qms/compare/v1.0.0...v1.0.1) (2024-05-22)
+
+
+### Bug Fixes
+
+* Added new feature ([05478fd](https://github.com/clouddrove-sandbox/auto-release-qms/commit/05478fddfc8d5ca9e2da8ff8683112828fc26477))
+
 # 1.0.0 (2024-05-22)
 
 
