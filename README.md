@@ -12,6 +12,3 @@ Once you commit your code with message convention, for example, feat: add some f
 1. Once you push your code it will run GitHub Action and release your project.
 
 2. Then it will create Release and CHANGELOG.md in the project.
-
-
-
