@@ -1,3 +1,15 @@
+## [2.1.2](https://github.com/clouddrove-sandbox/auto-release-qms/compare/v2.1.1...v2.1.2) (2024-05-27)
+
+
+### Bug Fixes
+
+* test ([3ca67e1](https://github.com/clouddrove-sandbox/auto-release-qms/commit/3ca67e10d8aad2b30050bac7608a31321d660e84))
+
+
+### BREAKING CHANGES
+
+* node v18 and v19 are no longer supported
+
 ## [2.1.1](https://github.com/clouddrove-sandbox/auto-release-qms/compare/v2.1.0...v2.1.1) (2024-05-27)
 
 
