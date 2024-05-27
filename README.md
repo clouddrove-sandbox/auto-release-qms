@@ -13,6 +13,3 @@ Once you commit your code with message convention, for example, feat: add some f
 
 2. Then it will create Release and CHANGELOG.md in the project.
 
-
-
-
