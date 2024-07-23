@@ -3,23 +3,35 @@
         "master"
     ],
     "plugins": [
+      [
         "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        [
-            "@semantic-release/changelog",
-            {
-                "changelogFile": "CHANGELOG.md"
-            }
-        ],
-        [
-            "@semantic-release/git",
-            {
-                "assets": [
-                    "CHANGELOG.md"
-                ]
-            }
-        ],
-        "@semantic-release/github"
-
+        {
+          "preset": "angular",
+          "releaseRules": [
+            { "type": "docs", "scope": "README", "release": "patch" },
+            { "type": "refactor", "release": "patch" },
+            { "type": "breaking", "release": "major" },
+            { "type": "feat", "release": "minor" },
+            { "type": "fix", "release": "patch" },
+            { "scope": "no-release", "release": false }
+          ]
+        }
+      ],
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+            "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+            "assets": [
+                "CHANGELOG.md"
+            ]
+        }
+      ],
+      "@semantic-release/github"
     ]
 }
